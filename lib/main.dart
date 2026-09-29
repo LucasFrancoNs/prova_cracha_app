@@ -96,13 +96,16 @@ class MeuCrachaApp extends StatelessWidget {
                 // Alinhe ao centro e crie os 3 Chips: 'Dart', 'Flutter', 'Git'.
                 // ===============================================================
                 const Row(
-                  // TODO: Adicionar mainAxisAlignment: MainAxisAlignment.center
+		// Adicionando o Mainaxis para o alinhamento dos cards.
+                  mainAxisAlignment: MainAxisAlignment.center, // TODO: Adicionar mainAxisAlignment: MainAxisAlignment.center
                   children: [
                     Chip(label: Text('Dart')),
                     SizedBox(width: 5),
-                    // TODO: Adicionar o Chip 'Flutter',
+		   // Add o card de skill flutter.
+                    Chip(label: Text('Flutter')),// TODO: Adicionar o Chip 'Flutter',
                     SizedBox(width: 5),
-                    // TODO: Adicionar o Chip 'Git',
+		   // add o card de skill Git.
+                    Chip(label: Text('Git')),// TODO: Adicionar o Chip 'Git',
                   ],
                 ),
                 
