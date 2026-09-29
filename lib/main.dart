@@ -61,14 +61,14 @@ class MeuCrachaApp extends StatelessWidget {
                   radius: 50,
 		  // adicao da linha para colocar imagem do ususario pela internet.
                   backgroundImage: NetworkImage(      // TODO: Adicionar propriedade backgroundImage com NetworkImage
-		   'https://github.com/identicos/user.png',
+		   'https://share.google/1BVW&ASAFcrbbdqgLG',
 	         ),
                 ),
                 
                 const SizedBox(height: 15),
                 
                 const Text(
-                  'Seu Nome Completo',
+                  'Lucas Franco de Novais',
                   style: TextStyle(
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
