@@ -60,13 +60,11 @@ class MeuCrachaApp extends StatelessWidget {
                 const CircleAvatar(
                   radius: 50,
 		  // adicao da linha para colocar imagem do ususario pela internet.
-                  backgroundImage: NetworkImage(      // TODO: Adicionar propriedade backgroundImage com NetworkImage
-		   'https://share.google/1BVW&ASAFcrbbdqgLG',
-	         ),
+                  backgroundImage: NetworkImage('https://images.pexels.com/photos/7298602/pexels-photo-7298602.jpeg'),
                 ),
                 
                 const SizedBox(height: 15),
-                
+               // Add  do meu nome 
                 const Text(
                   'Lucas Franco de Novais',
                   style: TextStyle(
@@ -105,6 +103,7 @@ class MeuCrachaApp extends StatelessWidget {
                     Chip(label: Text('Flutter')),// TODO: Adicionar o Chip 'Flutter',
                     SizedBox(width: 5),
 		   // add o card de skill Git.
+
                     Chip(label: Text('Git')),// TODO: Adicionar o Chip 'Git',
                   ],
                 ),
