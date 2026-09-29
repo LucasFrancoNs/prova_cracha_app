@@ -59,7 +59,10 @@ class MeuCrachaApp extends StatelessWidget {
                 // ===============================================================
                 const CircleAvatar(
                   radius: 50,
-                  // TODO: Adicionar propriedade backgroundImage com NetworkImage
+		  // adicao da linha para colocar imagem do ususario pela internet.
+                  backgroundImage: NetworkImage(      // TODO: Adicionar propriedade backgroundImage com NetworkImage
+		   'https://github.com/identicos/user.png',
+	         ),
                 ),
                 
                 const SizedBox(height: 15),
